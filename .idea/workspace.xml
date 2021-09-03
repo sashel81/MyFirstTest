@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b028703-ab27-44b0-a350-45bf9452ea99" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HomeWork10.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/driver/chromedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/andersenlab/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/andersenlab/MyFirstTestClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/andersenlab/App.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/org/andersenlab/MyFirstTestClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/andersenlab/MyFirstTestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/andersenlab/MyFirstTestClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/andersenlab/MyFirstTestClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/andersenlab/MyFirstTestClass.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +12,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="newTests" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1xN3PLtpec2QQwiMJWZzP85fSyY" />
@@ -33,6 +30,11 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Sasha\IdeaProjects\HomeWork10\src\main" />
+    </key>
+  </component>
   <component name="RunManager" selected="JUnit.MyFirstTestClass">
     <configuration name="MyFirstTestClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.andersenlab.MyFirstTestClass" />
@@ -43,6 +45,22 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AutorizationTest.autorization" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HomeWork10" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.andersenlab.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.andersenlab" />
+      <option name="MAIN_CLASS_NAME" value="org.andersenlab.AutorizationTest" />
+      <option name="METHOD_NAME" value="autorization" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -78,11 +96,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ProjectCreationTest.projectCreation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HomeWork10" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.andersenlab.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.andersenlab" />
+      <option name="MAIN_CLASS_NAME" value="org.andersenlab.ProjectCreationTest" />
+      <option name="METHOD_NAME" value="projectCreation" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MyFirstTestClass" />
         <item itemvalue="JUnit.MyFirstTestClass.testEmailField" />
+        <item itemvalue="JUnit.MyFirstTestClass" />
         <item itemvalue="Application.MyFirstTestClass" />
+        <item itemvalue="JUnit.MyFirstTestClass.testEmailField" />
+        <item itemvalue="JUnit.AutorizationTest.autorization" />
       </list>
     </recent_temporary>
   </component>
@@ -109,29 +145,64 @@
       <option name="presentableId" value="Default" />
       <updated>1630181693763</updated>
     </task>
+    <task id="LOCAL-00001" summary="HomeWork11">
+      <created>1630705197731</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1630705197731</updated>
+    </task>
+    <task id="LOCAL-00002" summary="HomeWork11">
+      <created>1630706615317</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1630706615317</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="HomeWork11" />
+    <option name="LAST_COMMIT_MESSAGE" value="HomeWork11" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="466" y="28" key="CommitChangelistDialog2" timestamp="1630706613822">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="466" y="28" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1630706613822" />
     <state x="580" y="174" key="FileChooserDialogImpl" timestamp="1630191890163">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="580" y="174" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1630191890163" />
-    <state width="1557" height="222" key="GridCell.Tab.0.bottom" timestamp="1630192908172">
+    <state width="1557" height="222" key="GridCell.Tab.0.bottom" timestamp="1630705998300">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1630192908172" />
-    <state width="1557" height="222" key="GridCell.Tab.0.center" timestamp="1630192908172">
+    <state width="1557" height="222" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1630705998300" />
+    <state width="1557" height="222" key="GridCell.Tab.0.center" timestamp="1630705998299">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1630192908172" />
-    <state width="1557" height="222" key="GridCell.Tab.0.left" timestamp="1630192908171">
+    <state width="1557" height="222" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1630705998299" />
+    <state width="1557" height="222" key="GridCell.Tab.0.left" timestamp="1630705998299">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1630192908171" />
-    <state width="1557" height="222" key="GridCell.Tab.0.right" timestamp="1630192908172">
+    <state width="1557" height="222" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1630705998299" />
+    <state width="1557" height="222" key="GridCell.Tab.0.right" timestamp="1630705998299">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1630192908172" />
+    <state width="1557" height="222" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1630705998299" />
+    <state x="392" y="165" key="Vcs.Push.Dialog.v2" timestamp="1630706637962">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="392" y="165" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1630706637962" />
+    <state x="526" y="233" key="git4idea.merge.GitPullDialog" timestamp="1630706271480">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="526" y="233" key="git4idea.merge.GitPullDialog/0.0.1600.860@0.0.1600.860" timestamp="1630706271480" />
+    <state x="182" y="134" key="new project wizard" timestamp="1630526628883">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="182" y="134" key="new project wizard/0.0.1600.860@0.0.1600.860" timestamp="1630526628883" />
     <state x="456" y="195" key="run.anything.popup" timestamp="1630184877438">
       <screen x="0" y="0" width="1600" height="860" />
     </state>

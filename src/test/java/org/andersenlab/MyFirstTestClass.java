@@ -20,7 +20,7 @@ public class MyFirstTestClass {
 
     @Test
     public void testEmailField() {
-        String chromeDriverPath = "\\driver\\chromedriver.exe";
+        String chromeDriverPath = "\\src\\main\\resources\\chromedriver.exe";
         String path = System.getProperty("user.dir");
         System.setProperty("webdriver.chrome.driver", path + chromeDriverPath);
         WebDriver driver = new ChromeDriver();
