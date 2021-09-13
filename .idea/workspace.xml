@@ -2,19 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b028703-ab27-44b0-a350-45bf9452ea99" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/local.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/andersenlab/helpers/CreatedProjectPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/andersenlab/helpers/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/andersenlab/helpers/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/andersenlab/helpers/ProjectPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/andersenlab/tests/ChangeProjectNameTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/andersenlab/tests/DeleteProjectTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/andersenlab/tests/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/andersenlab/MyFirstTestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/andersenlab/MyFirstTestClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/org/andersenlab/MyFirstTestClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/andersenlab/MyFirstTestClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/andersenlab/AutorizationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/andersenlab/tests/AutorizationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/andersenlab/MyFirstTestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/andersenlab/tests/MyFirstTestClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/andersenlab/ProjectCreationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/andersenlab/tests/ProjectCreationTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="newTests" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -28,69 +47,80 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Sasha\IdeaProjects\HomeWork10\src\main\resources" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Sasha\IdeaProjects\HomeWork10\src\main" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MyFirstTestClass">
-    <configuration name="MyFirstTestClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.andersenlab.MyFirstTestClass" />
-      <module name="HomeWork10" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.andersenlab.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.DeleteProjectTest.DeleteProjectTest">
     <configuration name="AutorizationTest.autorization" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HomeWork10" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.andersenlab.*" />
+          <option name="PATTERN" value="org.andersenlab.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.andersenlab" />
-      <option name="MAIN_CLASS_NAME" value="org.andersenlab.AutorizationTest" />
+      <option name="PACKAGE_NAME" value="org.andersenlab.tests" />
+      <option name="MAIN_CLASS_NAME" value="org.andersenlab.tests.AutorizationTest" />
       <option name="METHOD_NAME" value="autorization" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyFirstTestClass" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ChangeProjectNameTest.projectRename" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HomeWork10" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.andersenlab.*" />
+          <option name="PATTERN" value="org.andersenlab.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.andersenlab" />
-      <option name="MAIN_CLASS_NAME" value="org.andersenlab.MyFirstTestClass" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="org.andersenlab.tests" />
+      <option name="MAIN_CLASS_NAME" value="org.andersenlab.tests.ChangeProjectNameTest" />
+      <option name="METHOD_NAME" value="projectRename" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyFirstTestClass.testEmailField" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DeleteProjectTest.CheckDeleteProject" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HomeWork10" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.andersenlab.*" />
+          <option name="PATTERN" value="org.andersenlab.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.andersenlab" />
-      <option name="MAIN_CLASS_NAME" value="org.andersenlab.MyFirstTestClass" />
-      <option name="METHOD_NAME" value="testEmailField" />
+      <option name="PACKAGE_NAME" value="org.andersenlab.tests" />
+      <option name="MAIN_CLASS_NAME" value="org.andersenlab.tests.DeleteProjectTest" />
+      <option name="METHOD_NAME" value="CheckDeleteProject" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DeleteProjectTest.DeleteProjectTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HomeWork10" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.andersenlab.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.andersenlab.tests" />
+      <option name="MAIN_CLASS_NAME" value="org.andersenlab.tests.DeleteProjectTest" />
+      <option name="METHOD_NAME" value="DeleteProjectTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -100,12 +130,12 @@
       <module name="HomeWork10" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.andersenlab.*" />
+          <option name="PATTERN" value="org.andersenlab.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.andersenlab" />
-      <option name="MAIN_CLASS_NAME" value="org.andersenlab.ProjectCreationTest" />
+      <option name="PACKAGE_NAME" value="org.andersenlab.tests" />
+      <option name="MAIN_CLASS_NAME" value="org.andersenlab.tests.ProjectCreationTest" />
       <option name="METHOD_NAME" value="projectCreation" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -114,10 +144,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MyFirstTestClass.testEmailField" />
-        <item itemvalue="JUnit.MyFirstTestClass" />
-        <item itemvalue="Application.MyFirstTestClass" />
-        <item itemvalue="JUnit.MyFirstTestClass.testEmailField" />
+        <item itemvalue="JUnit.DeleteProjectTest.DeleteProjectTest" />
+        <item itemvalue="JUnit.ProjectCreationTest.projectCreation" />
+        <item itemvalue="JUnit.DeleteProjectTest.CheckDeleteProject" />
+        <item itemvalue="JUnit.ChangeProjectNameTest.projectRename" />
         <item itemvalue="JUnit.AutorizationTest.autorization" />
       </list>
     </recent_temporary>
@@ -167,34 +197,74 @@
     <option name="LAST_COMMIT_MESSAGE" value="HomeWork11" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="92" y="92" width="1416" height="676" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1631485170093">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="92" y="92" width="1416" height="676" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1600.860@0.0.1600.860" timestamp="1631485170093" />
+    <state x="605" y="148" key="#com.intellij.ide.util.MemberChooser" timestamp="1631459765236">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="605" y="148" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860@0.0.1600.860" timestamp="1631459765236" />
+    <state x="426" y="359" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1631454797947">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="426" y="359" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1600.860@0.0.1600.860" timestamp="1631454797947" />
     <state x="466" y="28" key="CommitChangelistDialog2" timestamp="1630706613822">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="466" y="28" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1630706613822" />
-    <state x="580" y="174" key="FileChooserDialogImpl" timestamp="1630191890163">
+    <state x="580" y="174" key="FileChooserDialogImpl" timestamp="1631454658659">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="580" y="174" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1630191890163" />
-    <state width="1557" height="222" key="GridCell.Tab.0.bottom" timestamp="1630705998300">
+    <state x="580" y="174" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1631454658659" />
+    <state width="1557" height="222" key="GridCell.Tab.0.bottom" timestamp="1631558296714">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1630705998300" />
-    <state width="1557" height="222" key="GridCell.Tab.0.center" timestamp="1630705998299">
+    <state width="1557" height="222" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1631558296714" />
+    <state width="1557" height="222" key="GridCell.Tab.0.center" timestamp="1631558296713">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1630705998299" />
-    <state width="1557" height="222" key="GridCell.Tab.0.left" timestamp="1630705998299">
+    <state width="1557" height="222" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1631558296713" />
+    <state width="1557" height="222" key="GridCell.Tab.0.left" timestamp="1631558296713">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1630705998299" />
-    <state width="1557" height="222" key="GridCell.Tab.0.right" timestamp="1630705998299">
+    <state width="1557" height="222" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1631558296713" />
+    <state width="1557" height="222" key="GridCell.Tab.0.right" timestamp="1631558296713">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1630705998299" />
+    <state width="1557" height="222" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1631558296713" />
+    <state width="1557" height="276" key="GridCell.Tab.1.bottom" timestamp="1631484886786">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="276" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1631484886786" />
+    <state width="1557" height="276" key="GridCell.Tab.1.center" timestamp="1631484886786">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="276" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1631484886786" />
+    <state width="1557" height="276" key="GridCell.Tab.1.left" timestamp="1631484886786">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="276" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1631484886786" />
+    <state width="1557" height="276" key="GridCell.Tab.1.right" timestamp="1631484886786">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="276" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1631484886786" />
+    <state x="280" y="7" key="SettingsEditor" timestamp="1631545534431">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="280" y="7" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1631545534431" />
     <state x="392" y="165" key="Vcs.Push.Dialog.v2" timestamp="1630706637962">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="392" y="165" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1630706637962" />
+    <state x="507" y="257" key="com.intellij.ide.util.TipDialog" timestamp="1630867016679">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="507" y="257" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1630867016679" />
+    <state x="455" y="47" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1631479601283">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="455" y="47" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1600.860@0.0.1600.860" timestamp="1631479601283" />
     <state x="526" y="233" key="git4idea.merge.GitPullDialog" timestamp="1630706271480">
       <screen x="0" y="0" width="1600" height="860" />
     </state>

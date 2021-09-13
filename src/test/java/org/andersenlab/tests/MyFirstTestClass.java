@@ -1,4 +1,4 @@
-package org.andersenlab;
+package org.andersenlab.tests;
 
 //import static org.junit.Assert.assertTrue;
 
