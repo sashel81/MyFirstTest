@@ -1,28 +1,38 @@
 package org.andersenlab.helpers;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class ProjectPage {
     WebDriver driver;
     WebDriverWait wait;
-    public By projectField = By.id("project_name");
-    public By projectBodyField = By.id("project_body");
-    public By projectType = By.id("project_public_true");
-    public By createProjectButton = By.cssSelector(".btn-primary");
+    @FindBy (id="project_name")
+    private WebElement projectField;
+
+   @FindBy(id ="project_body")
+    private  WebElement projectBodyField;
+
+    @FindBy(id ="project_public_true")
+    private WebElement projectType;
+
+    @FindBy(css=".btn-primary")
+    private WebElement createProjectButton;
 
     public ProjectPage(WebDriver driver) {
         this.driver = driver;
+        PageFactory.initElements(driver,this);
     }
 
     public CreatedProjectPage createProject(CharSequence uniqueName) {
-        driver.findElement(projectField).click();
-        driver.findElement(projectField).sendKeys(uniqueName);
-        driver.findElement(projectBodyField).click();
-        driver.findElement(projectBodyField).sendKeys("test");
-        driver.findElement(projectType).click();
-        driver.findElement(createProjectButton).click();
+        projectField.click();
+        projectField.sendKeys(uniqueName);
+        projectBodyField.click();
+       projectBodyField.sendKeys("test");
+        projectType.click();
+        createProjectButton.click();
         return new CreatedProjectPage(driver);
     }
 }

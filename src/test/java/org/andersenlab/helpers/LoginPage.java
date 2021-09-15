@@ -1,28 +1,40 @@
 package org.andersenlab.helpers;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
 
 public class LoginPage {
     WebDriver driver;
-    public By loginField = By.id("login_field");
-    public By passwordField = By.id("password");
-    public By commitButton = By.name("commit");
+
+    @FindBy (id = "login_field")
+    private WebElement loginField;
+
+    @FindBy (id = "password")
+    private WebElement passwordField;
+
+    @FindBy (name = "commit")
+    private WebElement commitButton;
+
 
     public LoginPage(WebDriver driver) {
         this.driver = driver;
+        PageFactory.initElements(driver,this);
     }
 
-    public void setUsername(String username) {
-        driver.findElement(loginField).sendKeys(username);
+    public LoginPage setUsername(String username) {
+        loginField.sendKeys(username);
+        return this;
     }
 
-    public void setPassword(String password) {
-        driver.findElement(passwordField).sendKeys(password);
+    public LoginPage setPassword(String password) {
+        passwordField.sendKeys(password);
+        return this;
     }
 
     public HomePage clickCommitButton() {
-        driver.findElement(commitButton).click();
+        commitButton.click();
         return new HomePage(driver);
     }
 }
