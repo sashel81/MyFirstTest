@@ -1,5 +1,6 @@
 package org.andersenlab.tests;
 
+import io.qameta.allure.junit4.DisplayName;
 import org.andersenlab.helpers.CreatedProjectPage;
 import org.andersenlab.helpers.HomePage;
 import org.junit.Before;
@@ -34,6 +35,7 @@ public class DeleteProjectTest extends TestBase {
     }
 
     @Test
+    @DisplayName("Delete project test")
     public void DeleteProjectTest() {
                 createdProjectPage.deleteProject(uniqueName);
         assert (createdProjectPage.findDeletedProjectName(uniqueName) == 0);

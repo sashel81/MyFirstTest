@@ -1,5 +1,6 @@
 package org.andersenlab.tests;
 
+import io.qameta.allure.junit4.DisplayName;
 import org.andersenlab.helpers.CreatedProjectPage;
 import org.andersenlab.helpers.HomePage;
 import org.junit.Before;
@@ -38,6 +39,7 @@ public class ChangeProjectNameTest extends TestBase {
     }
 
     @Test
+    @DisplayName("Change project name test")
     public void projectRename() throws InterruptedException {
         CharSequence uniqueNameNew = "aData_" + System.currentTimeMillis();
         String Actual = createdProjectPage.changeNameOfProject(uniqueNameNew)
